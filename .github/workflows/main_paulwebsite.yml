@@ -3,9 +3,7 @@ name: Build and deploy Node.js app to Azure Web App - paulwebsite
 on:
   push:
     branches:
-      - main
-    paths:
-      - 'Backend/**'   
+      - main  
   workflow_dispatch:
 
 jobs:
