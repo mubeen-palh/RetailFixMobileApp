@@ -1,8 +1,66 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# RetailFixIt – Mobile Demo App
 
-# Getting Started
+A minimal mobile-first job management app demonstrating:
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+- Role-based access control (RBAC)
+- Offline-first behavior
+- Job caching & delta sync
+- Optimistic UI updates
+- Simple real-time updates via polling
+- Backend integration ready for Azure event-driven architecture
+
+Built as part of a Mobile Engineer technical assessment.
+
+---
+
+# 📱 Features
+
+## Mobile Features
+
+✅ Login with RBAC (Admin / Technician / Vendor)  
+✅ Job list with local caching  
+✅ Job detail with attachments  
+✅ Accept / Complete job actions  
+✅ Optimistic UI updates  
+✅ Offline queue (AsyncStorage)  
+✅ Background sync & polling  
+✅ Modern mobile UI  
+
+---
+
+## Backend Integration (Demo Scope)
+
+✅ JobCreated ingestion via HTTP  
+✅ Job state storage  
+✅ RBAC enforcement at API boundary  
+✅ Real-time update simulation via polling  
+✅ Ready to extend with Azure Service Bus / SignalR  
+
+---
+
+# 🧱 Tech Stack
+
+## Mobile
+- React Native
+- TypeScript
+- AsyncStorage (offline cache & queue)
+- React Navigation
+
+## Backend (Demo)
+- Node.js + Express
+- MySQL
+- Simple RBAC middleware
+
+---
+
+# 🚀 How to Run the Demo
+
+## 1. Clone Repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/retailfixit-demo.git
+cd retailfixit-demo
+
 
 ## Step 1: Start Metro
 
